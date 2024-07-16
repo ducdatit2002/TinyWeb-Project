@@ -1,0 +1,14 @@
+{
+  "courses": [
+    {
+      "name": "HTML/CSS/JS",
+      "description": "Khoá học lập trình thú vị",
+      "id": 1
+    },
+    {
+      "name": "Demo1",
+      "description": "hehe",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+Cách dùng Media queries:
+
+@media (max-width: 800px) {
+    .pc,
+    .tablet,
+    .mobile {
+        color: red;
+    }
+}
+
+<!-- Lưu ý về giá trị từng thiết bị:
+1. PC: >=1024px
+2. Tablet: >=740px và , 1024px
+3. Mobile: < 740px -->
+
+Ứng dụng:
+<!-- BREAK POINT -->
+<!-- PC -->
+@media (min-width: 1024px) {
+    .pc {
+        display: block;
+    }
+}
+<!-- Table -->
+@media (min-width: 740px) and (max-width: 1023px) {
+    .table {
+        display: block;
+    }
+}
+<!-- Mobile -->
+@media (max-width: 740px) {
+    .mobile {
+        display: block;
+    }
+}

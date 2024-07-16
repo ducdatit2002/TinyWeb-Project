@@ -1,0 +1,4 @@
+function deQuy() {
+    deQuy();
+}
+deQuy();
